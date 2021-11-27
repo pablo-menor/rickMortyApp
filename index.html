@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rick and Morty App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <nav>
+            <div class="wrap">
+                <img src="./img/Rick_and_Morty.png" alt="logo" id="logo">
+                <div id="search-container">
+                    <input type="text" id="search" placeholder="Filter characters by  name">
+                </div>
+
+                <i class="fas fa-folder fav-icon" title="Favorites"></i>
+
+            </div>
+        </nav>
+
+        <section id="cards"></section>
+        <div id="pages">
+            <i class="fas fa-long-arrow-alt-left before"></i>
+            <i class="fas fa-long-arrow-alt-right next"></i>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p> <i class="fas fa-code"></i> Developed by <a href="https://github.com/pablo-menor" target="_blank">Pablo</a>
+        </p>
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
